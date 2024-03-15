@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luciana - Portfólio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous" />
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Phudu:wght@300;500&family=Sarala&display=swap" rel="stylesheet" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/67aa46dc7a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+  />
+  <link rel="stylesheet" href="custom.css" />
+
+
+  <script defer src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+  ></script>
+  <script defer src="main.js"></script>
+  <script defer src="testimonials.js"></script> 
+
+</head>
+<body>
+  <header>
+      <nav class="navbar  navbar-expand-lg bg-body-primary">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white phudu-300" href="#">lusmartins</a>
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline">
+                
+                <li class="nav-item">
+                  <a class=" nav-link text-white phudu-300 nav-link active" 
+                  aria-current="page" " href="#">Sobre Mim</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-white phudu-300"" href="#licensa">Licensas e Certificados</a>
+                </li>
+
+                <!--<li class="nav-item">
+                  <a class="nav-link text-white phudu-300"" href="#">Portfólio</a>
+                </li>-->
+
+                <li class="nav-item">
+                  <a class="nav-link text-white phudu-300"" href="#recomendar">Recomendações</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link text-white phudu-300"" href="#contato">Contatos</a>                  
+                </li>
+                </ul>
+            </div>
+          </div>
+      </nav>
+    </header>
+    <main>
+        <!--sobre mim-->
+        <section class="mt-2" id="about">
+            <!--div que irá ter img e descrição-->
+            <div class="container ">
+              <!--Adcionar dps class="section-title" -->
+              <div class="text-center">
+                <h1 class="d-inline-flex title-section underline-text">
+                  Sobre mim
+                </h1>
+                <p class="lead text-white roboto-300">
+                  Conheça um pouco sobre mim e minha história com a tecnologia!
+                </p>
+              </div>
+    
+              <div class="row align-items-center">
+                <div class="col-12 col-xxl-6 d-flex justify-content-end">
+                 
+                    <img
+                    src="https://avatars.githubusercontent.com/u/112494287?s=400&u=d896ab457070f208d6bd57044296458e9750a180&v=4"
+                    class="rounded-end-4 border-img img-fluid img-400"
+                    alt=""
+                  />
+                 
+                </div>
+                <div class=" col-md-6" >
+                  <div class="rounded-4 border-2">
+                  <h2 class="my-5 title title-section ">Cientista de Dados</h2>
+                  <p class=" lead text-white roboto-300">
+                    Graduanda em Ciência de Dados pela Universidade Federal do Ceará - UFC. 
+                    Atualmente atuo como bolsista do projeto de Monitoria Integrada de Matemática 
+                    Aplicada a Computação, como voluntária no projeto PECiD- Portal de Estatística 
+                    e Ciência de Dados, e também sou integrante do Centro Acadêmico do curso de 
+                    Ciência de Dados.
+ 
+                    <br>
+                    
+                  </p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          
+            <section>
+              <div class="container">
+                  <div class="text-center">
+                      <h1 class="d-inline-flex title-section roboto-300 m-4 underline-text">
+                          Hard Skills
+                      </h1>
+                  </div>
+            <ul class="nav nav-pills mt-4 justify-content-center " id="pills-tab" role="tablist">
+              <!--<li class="nav-item" role="presentation">
+                <button class="btn-skills nav-link m-2"  id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true" onmouseover="this.style.backgroundColor='#181818';">Hard Skills</button>
+              </li>
+               
+              <li class="nav-item" role="presentation">
+              <button class="nav-link btn-skills m-2" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" onmouseover="this.style.backgroundColor='#181818';">Soft Skills</button>
+              </li>-->
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <div class="skills">
+                  <!--Aqui começa os cards de soft skills-->
+                  <div class=" container owl-carousel owl-carousel1 owl-theme">
+                    <div class=" mx-3 shadow-sm rounded-4 border-1 p-2 border-skills  text-center">
+                      <h3 class="title-section">Python</h3>
+                      <div class="skill-card m-auto">
+                        <i class="fa-brands fa-python fa-2xl"></i>
+                      </div>
+        
+                      <div
+                        class="progress m-4"
+                        role="progressbar"
+                        aria-label="Success example"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div class="progress-bar title-section text-dark" style="width: 40%; background-color: #daa520; font-size: 20px;">
+                        40%
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="shadow-sm border-1 rounded-4 border-skills  p-2 mx-3  text-center">
+                      <h3 class="title-section">R Studio</h3>
+                      <div class="skill-card m-auto">
+                        <i class="fa-brands fa-r-project fa-2xl"></i>
+                      </div>
+                      <div
+                        class="progress m-4"
+                        role="progressbar"
+                        aria-label="Success example"
+                        aria-valuenow="40"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div class="progress-bar title-section text-dark" style="width: 20%;  background-color: #daa520; font-size: 20px; ">
+                          20%
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="shadow-sm border-1 rounded-4 border-skills  p-2 mx-3  text-center">
+                      <h3 class="title-section">CSS</h3>
+                      <div class="skill-card m-auto">
+                        <i class="fa-brands fa-css3-alt fa-2xl"></i>
+                      </div>
+                      <div
+                        class="progress m-4"
+                        role="progressbar"
+                        aria-label="Success example"
+                        aria-valuenow="20"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div class="progress-bar title-section text-dark" style="width: 15%;  background-color: #daa520; font-size: 20px;">
+                          15%
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="border-1 rounded-4 border-skills  p-2 mx-3 text-center">
+                      <h3 class="title-section">HTML</h3>
+                      <div class="skill-card m-auto">
+                        <i class="fa-brands fa-html5 fa-2xl"></i>
+                      </div>
+                      <div
+                        class="progress m-4"
+                        role="progressbar"
+                        aria-label="Success example"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div class="progress-bar title-section text-dark" style="width: 15%;  background-color: #daa520; font-size: 20px;">
+                          15%
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Adicione mais ícones para outras habilidades -->
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                <div class="skills">
+                  <div class="owl-carousel owl-carousel1 owl-theme">
+                    
+
+                    
+            </section>
+
+        <section class="mt-2" id="licensa">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="d-inline-flex title-section roboto-300 m-4 underline-text">
+                    Licensas e Certificados
+                </h1>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+
+                    <div class="card h-100 rounded-0 text-white border-cards " style="width: 18rem;">
+                        <img
+                  src="Luciana Sousa Martins - Curso Estatística com Python_ frequências e medidas - Alura.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                   <div class="card-body">
+                          <h5 class="card-title text-center roboto-300">
+                            Statistics with Python: Frequencies and Measures.
+                          </h5><a href="https://cursos.alura.com.br/certificate/156a166a-f100-48c2-90d8-e94c354800f1?lang=en" class="credencial-link">
+                            Exibir credencial
+                            <i class="bi bi-arrow-right"></i>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 rounded-0 text-white border-cards " style="width: 18rem;">
+                  <img
+            src="Luciana Sousa Martins - Curso Estatística com Python_ frequências e medidas - Alura.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+             <div class="card-body">
+                    <h5 class="card-title text-center roboto-300">
+                      Statistics with Python: Frequencies and Measures.
+                    </h5><a href="https://cursos.alura.com.br/certificate/156a166a-f100-48c2-90d8-e94c354800f1?lang=en" class="credencial-link">
+                      Exibir credencial
+                      <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                    </div>
+                </div>
+
+                
+                    <div class="card h-100 rounded-0 text-white border-cards " style="width: 18rem;">
+                  <img
+            src="Luciana Sousa Martins - Curso Estatística com Python_ frequências e medidas - Alura.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+             <div class="card-body">
+                    <h5 class="card-title text-center roboto-300">
+                      Statistics with Python: Frequencies and Measures.
+                    </h5><a href="https://cursos.alura.com.br/certificate/156a166a-f100-48c2-90d8-e94c354800f1?lang=en" class="credencial-link">
+                      Exibir credencial
+                      <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                    </div>
+                </div>
+        </div>
+
+        
+        </section>
+
+          <section class="mt-2" id="recomendar">
+            <div class="testimonials">
+              <div class="text-center">
+              <h1 class="d-inline-flex title-section roboto-300 m-4 underline-text">
+                Recomendaões
+              </h1>
+              <div class="owl-carousel owl-carousel1 owl-theme">
+                <div>
+                  <div class="card text-center roboto-300">
+                    <img
+                      class="card-img-top"
+                      src="https://media.licdn.com/dms/image/D4D03AQE2ZXgKTkBM9Q/profile-displayphoto-shrink_100_100/0/1709512561233?e=1715817600&v=beta&t=hHWS7q1lRIKSdVCaosUwkD4XN8SN0reUWh_2tKj4-CE"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h5>
+                        Allan Michel <br />
+                        <span>
+                          Desenvolvedor Front-End | Análise e Desenvolvimento de Sistemas - UFC
+                        </span
+                        >
+                      </h5>
+                      <p class="card-text">
+                        “ Luciana sem dúvidas apresenta alto compromisso e competência em todas atividades 
+                        propostas. Seu esforço e sua capacidade em resoluções de problemas é impecável. 
+                        Sem dúvidas um exemplo de ótima profissional. ”
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="card text-center">
+                    <img
+                      class="card-img-top"
+                      src="https://media.licdn.com/dms/image/D4D03AQHW8KPKoS8HHw/profile-displayphoto-shrink_200_200/0/1707144633685?e=1715817600&v=beta&t=nuR9fSoWmqmHgRGEVOIRpkoMOZeTZ9D8KFVljsGUCfk"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h5>
+                        Larissa Sousa<br />
+                        <span
+                          >Cientista de Dados | Python | R | SQL | Machine Learning</span
+                        >
+                      </h5>
+                      <p class="card-text">
+                        “ Luciana é uma colega de equipe bastante dedicada e comprometida. Seu compromisso em alcançar os objetivos estabelecidos é evidente. Focada, ela não apenas cumpre suas metas, mas as supera, buscando constantemente a excelência. Luciana demonstra habilidade em enfrentar desafios com confiança, e sua disposição para colaborar com os colegas é admirável. Além disso, ela possui habilidades técnicas em áreas como HTML e Python, o que a torna uma valiosa contribuidora para qualquer projeto. ”
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="card text-center">
+                    <img
+                      class="card-img-top"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h5>
+                        Maria Bianca Sousa<br />
+                        <span
+                          >Analista de dados | R | Python | SQL
+                          </span
+                        >
+                      </h5>
+                      <p class="card-text">
+                        “ Luciana é alguém em constante busca por aprimoramento e compreensão aprofundada em seus estudos, refletindo uma dedicação que vai além do simples cumprimento de obrigações. Ela demonstrou ser dedicada e inteligente. ”
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="card text-center">
+                    <img
+                      class="card-img-top"
+                      src="https://media.licdn.com/dms/image/D4E03AQGh9dX9eU_W1w/profile-displayphoto-shrink_100_100/0/1698102511852?e=1715817600&v=beta&t=mTL-7BRJD3sEJM5cqOqf_3iMKG-bjlF_Ep5mUnA8ksQ"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h5>
+                        Eric Ramos Coutinho<br />
+                        <span
+                          >Python | R | Estatística | Power BI | Ciência De Dados | Machine Learning | Deep Learning | PostgreSQL | Bolsista, Programa De Iniciação à Docencia - PID | Acadêmico em Ciência De Dados - UFC
+                          </span
+                        >
+                      </h5>
+                      <p class="card-text">
+                        “ A Luciana é aquela pessoa que coloca a mão na massa com um brilho nos olhos. Não tem tempo ruim, ela encara os desafios de frente . Recomendo como exemplo profissional naquilo que faz e em tudo que se propõe a fazer. ”
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="card text-center">
+                    <img
+                      class="card-img-top"
+                      src="https://media.licdn.com/dms/image/D4D03AQGj9EewtpkA5A/profile-displayphoto-shrink_100_100/0/1665618712171?e=1715817600&v=beta&t=TFxnFzkQMsHjpv0ATT40YOIH499g_mxdkeHLk9vJrpY"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h5>
+                        Laura Mendes<br />
+                        <span
+                          >Analista de dados | R | Python | SQL
+                          </span
+                        >
+                      </h5>
+                      <p class="card-text">
+                        “ É com total confiança que recomendo a Luciana no campo de Ciência de Dados. Durante nosso tempo juntas , atuei como sua monitora e experienciei de perto a sua evolução em Ciência de Dados. Luciana não apenas dominou conceitos complexos, mas também demonstrou habilidades excepcionais ao compartilhar conhecimentos, tornando-a uma colega valiosa. Sua capacidade analítica brilhou em projetos desafiadores. Trabalhamos juntas na empresa Júnior PrimeTech, onde suas contribuições foram e continuam sendo fundamentais para o sucesso da equipe. Recomendo a Luciana como uma profissional talentosa e comprometida em Ciência de Dados ”
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="card text-center">
+                    <img
+                      class="card-img-top"
+                      src="https://media.licdn.com/dms/image/D4D03AQEuH_asuV6GcQ/profile-displayphoto-shrink_200_200/0/1708702038978?e=1715817600&v=beta&t=PIbU1gVGrPFtSXV-SJFghd0Eyt33tHTRL9lnso2PjoE"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h5>
+                        Bruna Barreto<br />
+                        <span>Cientista de Dados Jr| R | Python |Shell Script
+
+                          </span
+                        >
+                      </h5>
+                      <p class="card-text">
+                        “ Luciana é uma profissional comprometida em entregar sempre seu melhor em tudo o que se propõe a fazer. Tive o prazer de colaborar com ela em projetos e atividades acadêmicas, onde pudemos trocar experiências valiosas. Recomendo Luciana como uma excelente profissional. ”
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="container" id="contato">
+                <form
+                  class="rounded-4 my-3 my-xl-5 p-3 text-center mx-auto border-cards">
+                  <h1 class="title-section">Informações de contato</h1>
+                  <div class="mb-4">
+                    <a class="m-2" href="https://www.linkedin.com/in/luciana-martins-5a180a250/"> <i class="fa-brands fa-linkedin-in fa-2xl" style="color: #ffffff;"></i> </a>
+                    <a class="m-2" href="https://github.com/lusmartins"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i></a>
+        
+                  </div>
+
+                  <div class="form-floating mb-3">
+                    <textarea
+                      class="form-control"
+                      placeholder="Leave a comment here"
+                      id="floatingTextarea"
+                    ></textarea>
+                    <label for="floatingTextarea">Digite seu nome</label>
+                  </div>
+        
+                  <div class="form-floating mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput">Digite seu e-mail</label>
+                  </div>
+
+                  <div class="form-floating mb-3">
+                    <textarea
+                      class="form-control"
+                      placeholder="Leave a comment here"
+                      id="floatingTextarea"
+                      style="height: 100px"
+                    ></textarea>
+                    <label for="floatingTextarea">Mensagem</label>
+                  </div>                  
+                </form>
+              </section>
+            </main>
+            <footer></footer>
+
+            <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
